@@ -1,5 +1,5 @@
 {
-  "name": "overnaive/dingtalkrobot",
+  "name": "cherrynechou/dingtalkrobot",
   "description": "DingTalk Robot",
   "type": "library",
   "license": "MIT",
@@ -7,12 +7,15 @@
     {
       "name": "OverNaive",
       "email": "overnaive20@gmail.com"
+    },{
+      "name": "cherrynechou",
+      "email": "iboy_2008@163.com"
     }
   ],
   "require": {
-    "php": "^7.2",
+    "php": "^7.2 || ^8.0"
     "pimple/pimple": "^3.0",
-    "guzzlehttp/guzzle": "^6.5|^7.0"
+    "guzzlehttp/guzzle": "^7.2"
   },
   "require-dev": {
     "phpstan/phpstan": "^0.12"
@@ -20,12 +23,6 @@
   "autoload": {
     "psr-4": {
       "DingTalkRobot\\": "src/"
-    }
-  },
-  "repositories": {
-    "packagist": {
-      "type": "composer",
-      "url": "https://packagist.phpcomposer.com"
     }
   }
 }
